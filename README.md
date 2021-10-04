@@ -1,6 +1,9 @@
 # NEWBIE CODER
 
-Do you know the meaning of `Newbie`? A beginner programmer who is completely new in programming is called Newbie.
+Do you know the meaning of Newbie?
+<br/>
+A beginner programmer who is completely new in programming is called Newbie.
+<br />
 Check [Newbie Coder](https://prantu-ph-assignment-react-router-newbie-coder.netlify.app/) to learn code with fun.
 
 ## Project Overview
@@ -11,7 +14,7 @@ Check [Newbie Coder](https://prantu-ph-assignment-react-router-newbie-coder.netl
 - Regular 3 times sipport session provided by stand by web developer
 - Life time access of the course content
 
-### Resources
+### Resources (API)
 
-[Courses API](https://raw.githubusercontent.com/imprantu/newbie-coder/main/courses.json)
-[Instructors API](https://raw.githubusercontent.com/imprantu/newbie-coder/main/instructors.json)
+- [Courses API](https://raw.githubusercontent.com/imprantu/newbie-coder/main/courses.json)
+- [Instructors API](https://raw.githubusercontent.com/imprantu/newbie-coder/main/instructors.json)

@@ -1,4 +1,13 @@
 .nav-link:hover {
-    background-color: #444;
+    background-color: #576574;
     transition: 0.4s;
+}
+.title {
+    color: yellow;
+    transition: 0.4s;
+}
+.title:hover {
+    color: #fff;
+    background: transparent;
+    text-shadow: 2px 2px blueviolet;
 }

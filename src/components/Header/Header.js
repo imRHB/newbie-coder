@@ -18,19 +18,19 @@ const Header = () => {
                 <div className="d-flex justify-content-center mt-5">
                     <div className="fs-3 mx-3">
                         <p className="m-0">{eat}</p>
-                        <p><code>eat();</code></p>
+                        <p><code>eat<span className="text-warning">()</span>;</code></p>
                     </div>
                     <div className="fs-3 mx-3">
                         <p className="m-0">{sleep}</p>
-                        <p><code>sleep();</code></p>
+                        <p><code>sleep<span className="text-danger">()</span>;</code></p>
                     </div>
                     <div className="fs-3 mx-3">
                         <p className="m-0">{code}</p>
-                        <p><code>code();</code></p>
+                        <p><code>code<span className="text-primary">()</span>;</code></p>
                     </div>
                     <div className="fs-3 mx-3">
                         <p className="m-0">{repeat}</p>
-                        <p><code>repeat();</code></p>
+                        <p><code>repeat<span className="text-info">()</span>;</code></p>
                     </div>
                 </div>
             </div>

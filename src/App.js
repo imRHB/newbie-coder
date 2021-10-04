@@ -5,9 +5,10 @@ import Nav from './components/Nav/Nav';
 import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home';
 import About from './components/About/About';
-import Services from './components/Services/Services';
 import Instructors from './components/Instructors/Instructors';
 import NotFound from './components/NotFound/NotFound';
+import CourseDetails from './components/CourseDetails/CourseDetails';
+import Courses from './components/Courses/Courses';
 
 function App() {
 
@@ -22,8 +23,11 @@ function App() {
           <Route exact path="/home">
             <Home></Home>
           </Route>
-          <Route exact path="/services">
-            <Services></Services>
+          <Route exact path="/courses">
+            <Courses></Courses>
+          </Route>
+          <Route exact path="/courses/:courseId">
+            <CourseDetails></CourseDetails>
           </Route>
           <Route exact path="/instructors">
             <Instructors></Instructors>

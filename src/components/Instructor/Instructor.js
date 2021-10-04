@@ -5,7 +5,7 @@ const Instructor = (props) => {
     const { name, img, position, company } = props.instructor;
     return (
         <Col>
-            <Card>
+            <Card className="h-100">
                 <Card.Img variant="top" src={img} />
                 <Card.Body>
                     <Card.Title>{name}</Card.Title>

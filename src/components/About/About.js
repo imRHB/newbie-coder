@@ -1,6 +1,7 @@
 import React from 'react';
 
 const About = () => {
+
     return (
         <div className="container my-5">
             <h3>Who we are?</h3>

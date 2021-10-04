@@ -3,6 +3,7 @@ import { Card, Col } from 'react-bootstrap';
 
 const Instructor = (props) => {
     const { name, img, position, company } = props.instructor;
+
     return (
         <Col>
             <Card className="h-100">

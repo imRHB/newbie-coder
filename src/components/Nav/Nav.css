@@ -2,11 +2,11 @@
     background-color: #576574;
     transition: 0.4s;
 }
-.title {
+.logo-title {
     color: yellow;
     transition: 0.4s;
 }
-.title:hover {
+.logo-title:hover {
     color: #fff;
     background: transparent;
     text-shadow: 2px 2px blueviolet;

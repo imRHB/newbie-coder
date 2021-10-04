@@ -1,6 +1,7 @@
 import { faBed, faCode, faRedoAlt, faUtensils } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
+import { Col, Row } from 'react-bootstrap';
 
 const Header = () => {
     const eat = <FontAwesomeIcon icon={faUtensils} />;
@@ -15,24 +16,25 @@ const Header = () => {
                 <p className="m-0">Hey future programmer, want to learn new something with fun?</p>
                 <p className="m-0">We provided top class web developer as your instructor, who has a lot of experiences.</p>
                 <p>So, why are you waiting for! Just check all of our current ongoing courses and enroll which more suit with you.</p>
-                <div className="d-flex justify-content-center mt-5">
-                    <div className="fs-3 mx-3">
+
+                <Row xs={1} sm={2} md={4} className="mt-5">
+                    <Col>
                         <p className="m-0">{eat}</p>
-                        <p><code>eat<span className="text-warning">()</span>;</code></p>
-                    </div>
-                    <div className="fs-3 mx-3">
+                        <p><code><span className="text-warning">eat()</span>;</code></p>
+                    </Col>
+                    <Col>
                         <p className="m-0">{sleep}</p>
-                        <p><code>sleep<span className="text-danger">()</span>;</code></p>
-                    </div>
-                    <div className="fs-3 mx-3">
+                        <p><code><span className="text-danger">sleep()</span>;</code></p>
+                    </Col>
+                    <Col>
                         <p className="m-0">{code}</p>
-                        <p><code>code<span className="text-primary">()</span>;</code></p>
-                    </div>
-                    <div className="fs-3 mx-3">
+                        <p><code><span className="text-primary">code()</span>;</code></p>
+                    </Col>
+                    <Col>
                         <p className="m-0">{repeat}</p>
-                        <p><code>repeat<span className="text-info">()</span>;</code></p>
-                    </div>
-                </div>
+                        <p><code><span className="text-info">repeat()</span>;</code></p>
+                    </Col>
+                </Row>
             </div>
         </header>
     );

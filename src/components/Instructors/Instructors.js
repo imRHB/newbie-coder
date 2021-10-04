@@ -15,6 +15,7 @@ const Instructors = () => {
 
     return (
         <div className="container my-5">
+            <h2 className="my-4 fw-bold text-info">Leading Persons</h2>
             <Row xs={1} md={2} lg={3} className="text-center g-4">
                 {
                     instructors.map(instructor => <Instructor

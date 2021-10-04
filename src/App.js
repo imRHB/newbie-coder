@@ -9,6 +9,7 @@ import Instructors from './components/Instructors/Instructors';
 import NotFound from './components/NotFound/NotFound';
 import CourseDetails from './components/CourseDetails/CourseDetails';
 import Courses from './components/Courses/Courses';
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
     <div>
       <BrowserRouter>
         <Nav></Nav>
+        {/* <Navbar></Navbar> */}
         <Switch>
           <Route exact path="/">
             <Home></Home>

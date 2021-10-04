@@ -1,7 +1,6 @@
 import React from 'react';
 
-const CourseDetails = (props) => {
-    console.log(props);
+const CourseDetails = () => {
 
     return (
         <div className="container my-5">

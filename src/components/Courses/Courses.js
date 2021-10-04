@@ -1,6 +1,7 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
+import { Row } from 'react-bootstrap';
 import Course from '../Course/Course';
 
 const Courses = () => {
@@ -15,14 +16,14 @@ const Courses = () => {
     return (
         <div className="container my-5">
             <h2 className="my-4 fw-bold text-info">Ongoing Courses</h2>
-            <div className="row row-cols-1 row-cols-md-4 g-5">
+            <Row xs={1} md={2} lg={3} xl={4} className="text-center g-4">
                 {
                     courses.map(course => <Course
                         key={course.id}
                         course={course}
                     ></Course>)
                 }
-            </div>
+            </Row>
         </div>
     );
 };

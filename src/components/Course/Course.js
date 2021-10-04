@@ -1,25 +1,21 @@
 import React from 'react';
-import { useHistory } from 'react-router';
+import { Card, Col } from 'react-bootstrap';
 
 const Course = (props) => {
-    const { id, title, img, fee } = props.course;
-    const history = useHistory();
-
-    const handleCourseDetails = () => {
-        history.push(`/courses/${id.toLowerCase()}`);
-    }
+    const { title, img, fee } = props.course;
 
     return (
-        <div className="col">
-            <div className="card h-100 shadow">
-                <img src={img} className="card-img-top" alt="..." />
-                <div className="card-body text-center">
-                    <h5 className="card-title">{title}</h5>
-                    <p className="card-text">Only at <strong>${fee}</strong></p>
-                </div>
-                <button onClick={handleCourseDetails} className="btn btn-outline-primary">Details</button>
-            </div>
-        </div>
+        <Col>
+            <Card>
+                <Card.Img variant="top" src={img} />
+                <Card.Body>
+                    <Card.Title>{title}</Card.Title>
+                    <Card.Text>
+                        <p>Only at <strong>${fee}</strong></p>
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+        </Col>
     );
 };
 

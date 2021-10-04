@@ -1,7 +1,6 @@
 import { faBed, faCode, faRedoAlt, faUtensils } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import './Header.css';
 
 const Header = () => {
     const eat = <FontAwesomeIcon icon={faUtensils} />;

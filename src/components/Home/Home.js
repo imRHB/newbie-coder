@@ -17,6 +17,7 @@ const Home = () => {
         <div className="">
             <Header></Header>
             <div className="container my-5">
+                <h3 className="my-4 fw-bold text-info">Top Courses</h3>
                 <div className="row row-cols-1 row-cols-md-4 g-5">
                     {
                         courses.map(course => <Course

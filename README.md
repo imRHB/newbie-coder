@@ -13,8 +13,3 @@ Check [Newbie Coder](https://prantu-ph-assignment-react-router-newbie-coder.netl
 - Top level certified web developer as course instructor
 - Regular 3 times sipport session provided by stand by web developer
 - Life time access of the course content
-
-### Resources (API)
-
-- [Courses API](https://raw.githubusercontent.com/imprantu/newbie-coder/main/courses.json)
-- [Instructors API](https://raw.githubusercontent.com/imprantu/newbie-coder/main/instructors.json)

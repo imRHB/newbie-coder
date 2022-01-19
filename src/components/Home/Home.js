@@ -9,7 +9,7 @@ const Home = () => {
     const [courses, setCourses] = useState([]);
 
     useEffect(() => {
-        fetch('https://raw.githubusercontent.com/imprantu/newbie-coder/main/courses.json')
+        fetch(`https://raw.githubusercontent.com/imRHB/fake-coder/main/courses.json`)
             .then(res => res.json())
             .then(data => setCourses(data.slice(0, 4)));
     }, []);

@@ -8,7 +8,7 @@ const Instructors = () => {
     const [instructors, setInstructors] = useState([]);
 
     useEffect(() => {
-        fetch('https://raw.githubusercontent.com/imprantu/newbie-coder/main/instructors.json')
+        fetch(`https://raw.githubusercontent.com/imRHB/fake-coder/main/instructors.json`)
             .then(res => res.json())
             .then(data => setInstructors(data));
     }, []);
